@@ -16,6 +16,7 @@
 		3BEE851A26A83C6100AFC101 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3BEE851926A83C6100AFC101 /* landmarkData.json */; };
 		3BEE851C26A83C7400AFC101 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE851B26A83C7400AFC101 /* Landmark.swift */; };
 		3BEE851E26A83E3600AFC101 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE851D26A83E3600AFC101 /* ModelData.swift */; };
+		3BEE852726A840AE00AFC101 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE852626A840AE00AFC101 /* LandmarkRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		3BEE851926A83C6100AFC101 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		3BEE851B26A83C7400AFC101 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		3BEE851D26A83E3600AFC101 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		3BEE852626A840AE00AFC101 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				3BEE850826A8278F00AFC101 /* ContentView.swift */,
 				3BEE851526A835DE00AFC101 /* CircleImage.swift */,
 				3BEE851726A8368E00AFC101 /* MapView.swift */,
+				3BEE852626A840AE00AFC101 /* LandmarkRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				3BEE850726A8278F00AFC101 /* LandmarksApp.swift in Sources */,
 				3BEE851626A835DE00AFC101 /* CircleImage.swift in Sources */,
 				3BEE851C26A83C7400AFC101 /* Landmark.swift in Sources */,
+				3BEE852726A840AE00AFC101 /* LandmarkRow.swift in Sources */,
 				3BEE851E26A83E3600AFC101 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
