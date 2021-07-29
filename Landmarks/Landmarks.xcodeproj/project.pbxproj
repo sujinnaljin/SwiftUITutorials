@@ -79,6 +79,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B22B32B26B2E67000FC69C1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3BA8EF4B26B2CF7C00CE1AA0 /* CategoryHome.swift */,
+				3BA8EF4D26B2D4F400CE1AA0 /* CategoryRow.swift */,
+				3BA8EF4F26B2D67900CE1AA0 /* CategoryItem.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		3B7F575A26A8710C00423F03 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,9 +178,7 @@
 				3B7F575B26A8711900423F03 /* Helpers */,
 				3BA8EF3D26AF063500CE1AA0 /* Badges */,
 				3BA8EF4226AF094800CE1AA0 /* Hikes */,
-				3BA8EF4B26B2CF7C00CE1AA0 /* CategoryHome.swift */,
-				3BA8EF4D26B2D4F400CE1AA0 /* CategoryRow.swift */,
-				3BA8EF4F26B2D67900CE1AA0 /* CategoryItem.swift */,
+				3B22B32B26B2E67000FC69C1 /* Category */,
 			);
 			path = Views;
 			sourceTree = "<group>";
