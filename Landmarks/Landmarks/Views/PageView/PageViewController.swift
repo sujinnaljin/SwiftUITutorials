@@ -24,6 +24,7 @@ struct PageViewController<Page: View>: UIViewControllerRepresentable {
         return pageViewController
     }
 
+    //밑에 parent.currentPage = index 로 @Binding 을 바꾸면서 바깥에 @State 바뀌니까 얘도 업데이트 되는 듯
     func updateUIViewController(_ pageViewController: UIPageViewController, context: Context) {
         pageViewController.setViewControllers([context.coordinator.controllers[currentPage]],
                                               direction: .forward,
