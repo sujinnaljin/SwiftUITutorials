@@ -195,11 +195,11 @@
 			isa = PBXGroup;
 			children = (
 				3B0C9CB126B9867200842AFC /* ContentView.swift */,
+				3B0C9CAF26B9854A00842AFC /* LandmarkDetail.swift */,
 				3B0C9C8C26B9812800842AFC /* InterfaceController.swift */,
 				3B0C9C8E26B9812800842AFC /* ExtensionDelegate.swift */,
 				3B0C9C9026B9812800842AFC /* NotificationController.swift */,
 				3B0C9C9226B9812800842AFC /* ComplicationController.swift */,
-				3B0C9CAF26B9854A00842AFC /* LandmarkDetail.swift */,
 				3B0C9C9426B9812900842AFC /* Assets.xcassets */,
 				3B0C9C9626B9812900842AFC /* Info.plist */,
 				3B0C9C9726B9812900842AFC /* PushNotificationPayload.apns */,
