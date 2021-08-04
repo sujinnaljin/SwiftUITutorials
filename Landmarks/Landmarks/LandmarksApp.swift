@@ -13,10 +13,19 @@ struct LandmarksApp: App {
     @StateObject private var modelData = ModelData()
     
     var body: some Scene {
-        WindowGroup {
+        let mainWindow = WindowGroup {
             ContentView()
                 .environmentObject(modelData)
         }
+        #if os(macOS)
+        mainWindow
+            .commands {
+                LandmarkCommands()
+            }
+        #else
+        mainWindow
+        #endif
+        
         #if os(watchOS)
         //지정된 category의 remote 또는 local 알림을 수신하는 경우에 나타나는 scene. 그래서 payload 에서 알림 쏠 때 category 명 맞춰서 쏨
         WKNotificationScene(controller: NotificationController.self, category: "LandmarkNear")
