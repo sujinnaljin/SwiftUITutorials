@@ -23,7 +23,6 @@
 		3B0C9CA926B983B200842AFC /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3BEE851926A83C6100AFC101 /* landmarkData.json */; };
 		3B0C9CAA26B983B200842AFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BEE850A26A8279100AFC101 /* Assets.xcassets */; };
 		3B0C9CAB26B983B200842AFC /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE852626A840AE00AFC101 /* LandmarkRow.swift */; };
-		3B0C9CAC26B983B200842AFC /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7F575426A845CC00423F03 /* LandmarkList.swift */; };
 		3B0C9CAD26B983B200842AFC /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE850626A8278F00AFC101 /* LandmarksApp.swift */; };
 		3B0C9CAE26B983B200842AFC /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8EF4026AF088400CE1AA0 /* Hike.swift */; };
 		3B0C9CB026B9854A00842AFC /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0C9CAF26B9854A00842AFC /* LandmarkDetail.swift */; };
@@ -46,6 +45,7 @@
 		3B21FBC326BADC6F009B28B0 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3BA8EF3E26AF087100CE1AA0 /* hikeData.json */; };
 		3B21FBC426BADC6F009B28B0 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3BEE851926A83C6100AFC101 /* landmarkData.json */; };
 		3B21FBC626BADE13009B28B0 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B21FBC526BADE13009B28B0 /* LandmarkDetail.swift */; };
+		3B21FBC826BAE4C7009B28B0 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B21FBC726BAE4C7009B28B0 /* LandmarkList.swift */; };
 		3B22B32E26B2E6DE00FC69C1 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B22B32D26B2E6DE00FC69C1 /* Profile.swift */; };
 		3B22B33026B2E71500FC69C1 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B22B32F26B2E71500FC69C1 /* ProfileHost.swift */; };
 		3B22B33226B2E72F00FC69C1 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B22B33126B2E72F00FC69C1 /* ProfileSummary.swift */; };
@@ -144,6 +144,7 @@
 		3B21FBB026BADBE4009B28B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B21FBB326BADBE4009B28B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B21FBC526BADE13009B28B0 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		3B21FBC726BAE4C7009B28B0 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		3B22B32D26B2E6DE00FC69C1 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		3B22B32F26B2E71500FC69C1 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		3B22B33126B2E72F00FC69C1 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
@@ -222,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				3B0C9CB126B9867200842AFC /* ContentView.swift */,
+				3B21FBC726BAE4C7009B28B0 /* LandmarkList.swift */,
 				3B0C9CAF26B9854A00842AFC /* LandmarkDetail.swift */,
 				3B21FBA326B98CA3009B28B0 /* NotificationView.swift */,
 				3B0C9C9026B9812800842AFC /* NotificationController.swift */,
@@ -575,9 +577,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B0C9CA526B983B200842AFC /* MapView.swift in Sources */,
-				3B0C9CAC26B983B200842AFC /* LandmarkList.swift in Sources */,
 				3B0C9CA626B983B200842AFC /* Profile.swift in Sources */,
 				3B21FBA426B98CA3009B28B0 /* NotificationView.swift in Sources */,
+				3B21FBC826BAE4C7009B28B0 /* LandmarkList.swift in Sources */,
 				3B0C9C9126B9812800842AFC /* NotificationController.swift in Sources */,
 				3B0C9CAE26B983B200842AFC /* Hike.swift in Sources */,
 				3B0C9C9326B9812800842AFC /* ComplicationController.swift in Sources */,

@@ -1,8 +1,8 @@
 //
 //  LandmarkList.swift
-//  Landmarks
+//  WatchLandmarks Extension
 //
-//  Created by 강수진 on 2021/07/21.
+//  Created by 강수진 on 2021/08/05.
 //
 
 import SwiftUI
@@ -31,7 +31,6 @@ struct LandmarkList: View {
                 }
             }
             .navigationTitle("Landmarks")
-            .frame(minWidth: 300)
         }
     }
 }
