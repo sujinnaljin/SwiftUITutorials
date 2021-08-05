@@ -60,7 +60,7 @@ struct LandmarkList: View {
                                 Text(category.rawValue).tag(category)
                             }
                         }
-                        .pickerStyle(.inline)
+                        .pickerStyle(InlinePickerStyle())
                         
                         
                         Toggle(isOn: $showFavoritesOnly) {
@@ -74,7 +74,7 @@ struct LandmarkList: View {
             }
             Text("Select a Landmark")
         }
-        .focusedValue(\.selectedLandmark, $modelData.landmarks[index ?? 0])
+        
     }
 }
 
