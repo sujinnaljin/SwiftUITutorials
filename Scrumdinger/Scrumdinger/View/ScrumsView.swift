@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct ScrumsView: View {
-    let scurms: [DailyScrum]
+    let scrums: [DailyScrum]
     var body: some View {
         List {
-            ForEach(scurms, id: \.title) { scrum in
+            ForEach(scrums) { scrum in
                 CardView(scrum: scrum)
                     .listRowBackground(scrum.color)
             }
@@ -21,6 +21,6 @@ struct ScrumsView: View {
 
 struct ScrumsView_Previews: PreviewProvider {
     static var previews: some View {
-        ScrumsView(scurms: DailyScrum.data)
+        ScrumsView(scrums: DailyScrum.data)
     }
 }
