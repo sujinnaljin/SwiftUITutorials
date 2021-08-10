@@ -9,6 +9,7 @@ import SwiftUI
 
 struct EditView: View {
     @State private var scrumData: DailyScrum.Data = DailyScrum.Data()
+    @State private var newAttendee = ""
     
     var body: some View {
         List {
@@ -23,7 +24,29 @@ struct EditView: View {
                 Text("\(Int(scrumData.lengthInMinutes)) minutes")
             }
             ColorPicker("Color", selection: $scrumData.color)
+            
+            Section(header: Text("Attendees")) {
+                ForEach(scrumData.attendees, id: \.self) { attendee in
+                    Text(attendee)
+                }
+                .onDelete(perform: { indices in
+                    scrumData.attendees.remove(atOffsets: indices)
+                })
+                HStack {
+                    TextField("New Attendee", text: $newAttendee)
+                    Button(action: {
+                        withAnimation {
+                            scrumData.attendees.append(newAttendee)
+                            newAttendee = ""
+                        }
+                    }) {
+                        Image(systemName: "plus.circle.fill")
+                    }
+                    .disabled(newAttendee.isEmpty)
+                }
+            }
         }
+        .listStyle(InsetGroupedListStyle())
     }
 }
 
