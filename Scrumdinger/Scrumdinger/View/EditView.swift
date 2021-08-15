@@ -57,6 +57,6 @@ struct EditView: View {
 
 struct EditView_Previews: PreviewProvider {
     static var previews: some View {
-        EditView()
+        EditView(scrumData: .constant(DailyScrum.data[0].data))
     }
 }
